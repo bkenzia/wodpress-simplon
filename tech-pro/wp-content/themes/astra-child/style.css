@@ -1,0 +1,32 @@
+/*
+Theme Name:   Astra  Child
+Description:  Astra Child Theme
+Author:       Kanzia Baiche
+Template:     astra
+Version:      1.0.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  astrachild
+*/
+header {
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    border: 1px solid black !important;
+    padding: 1rem 0;
+    /* position: fixed; */
+    /* width: 100%; */
+    /* bottom: 2rem; */
+}
+nav {
+    flex-basis: 50% !important;
+}
+nav > div > ul {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin: 0 !important;
+}
+li {
+    list-style: none;
+}
